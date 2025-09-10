@@ -23,7 +23,7 @@ def ball():
         r = f"{vprašanje1} = Burek only."
     if vprašanje1=="profesor":
         r = f"{vprašanje1} = F speedrun."
-    if vprašanje1=="!":
+    if vprašanje1[-1]=="!":
         r = f"{vprašanje1} = Ne kriči."
 
 
